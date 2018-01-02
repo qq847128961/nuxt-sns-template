@@ -12,5 +12,6 @@
 .column-bar
   height 50px
   width 100%
+  margin-top 10px
   background #ffffff
 </style>
