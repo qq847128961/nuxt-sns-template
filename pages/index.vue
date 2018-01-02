@@ -13,6 +13,7 @@
         </mu-flexbox-item>
       </mu-flexbox>
     </div>
+    <div class="content"></div>
   </section>
 </template>
 
@@ -21,5 +22,9 @@
   height 50px
   width 100%
   background #ffffff
-  
+.content
+  margin-top 10px
+  min-height 800px
+  width 100%
+  background #ffffff
 </style>
