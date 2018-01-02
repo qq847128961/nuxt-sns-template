@@ -1,15 +1,9 @@
 <template>
   <section class="container">
-    <img src="../assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
-    <h1 class="title">
-      This page is loaded from the {{ name }}
-    </h1>
-    <h2 class="info" v-if="name === 'client'">
-      Please refresh the page
-    </h2>
-    <nuxt-link class="button" to="/">
-      Home page
-    </nuxt-link>
+    <mu-appbar title="Title">
+      <mu-text-field icon="search" class="appbar-search-field"  slot="right" hintText="请输入搜索内容"/>
+      <mu-flat-button color="white" label="flat Button" slot="right"/>
+    </mu-appbar>
   </section>
 </template>
 <script>

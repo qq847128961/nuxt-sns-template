@@ -1,9 +1,8 @@
 <template>
   <section class="container">
-   <mu-appbar title="Title">
-      <mu-icon-button icon="menu" slot="left"/>
-      <mu-flat-button label="expand_more" slot="right"/>
-      <mu-icon-button icon="expand_more" slot="right"/>
+   <mu-appbar title="小吱社区">
+      <mu-text-field icon="search" class="appbar-search-field"  slot="right" hintText="请输入搜索内容"/>
+      <mu-flat-button color="white" label="flat Button" slot="right"/>
     </mu-appbar>
   </section>
 </template>
