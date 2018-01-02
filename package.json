@@ -16,7 +16,9 @@
     "koa": "^2.4.1",
     "muse-ui": "^2.1.0",
     "nuxt": "^1.0.0-rc11",
-    "source-map-support": "^0.4.15"
+    "source-map-support": "^0.4.15",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
