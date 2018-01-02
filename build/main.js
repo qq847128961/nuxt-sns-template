@@ -84,11 +84,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~assets/css/main.css'],
+  css: ['~assets/css/main.css', '~assets/font/material-icons.css', 'muse-ui/dist/muse-ui.css', 'muse-ui/dist/theme-carbon.css'],
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#3B8070' }
+  loading: { color: '#3B8070' },
+  plugins: [{ src: '~plugins/muse-ui.js', ssr: true }]
 };
 
 /***/ },
