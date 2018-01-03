@@ -1,16 +1,19 @@
 <template>
   <div>
     <z-header/>
+    <z-bar/>
     <nuxt/>
   </div>
 </template>
 
 <script>
 import ZHeader from '../components/Header.vue'
+import ZBar from '../components/bar.vue'
 
 export default {
   components: {
-    ZHeader
+    ZHeader,
+    ZBar
   }
 }
 </script>
