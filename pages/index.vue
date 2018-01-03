@@ -13,7 +13,9 @@
         </mu-flexbox-item>
       </mu-flexbox>
     </div>
-    <div class="content"></div>
+    <div class="content">
+      内容
+    </div>
   </section>
 </template>
 
